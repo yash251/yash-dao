@@ -7,7 +7,7 @@ const editionDrop = sdk.getEditionDrop("0x85b154BaA8716DDF4890eE35313EcDFf0b5F7A
     try {
         await editionDrop.createBatch([
             {
-                name: "Yash Best Picture",
+                name: "Yash Favourite Picture",
                 description: "This NFT will give you access to YashDAO!",
                 image: readFileSync("scripts/assets/kendall.jpeg"),
             },
