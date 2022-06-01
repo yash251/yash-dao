@@ -66,6 +66,15 @@ const App = () => {
     );
   }
 
+  if (hasClaimedNFT) {
+    return (
+      <div className='member-page'>
+        <h1>🤴🏻Yash DAO Member Page</h1>
+        <p>Congratulations on being a member</p>
+      </div>
+    );
+  }
+
   // Render the mint NFT screen
   return (
     <div className='mint-nft'>
