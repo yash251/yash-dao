@@ -43,7 +43,7 @@ const token = sdk.getToken("0x59FA0EF3ef73C76eAC063C5F2D9e787849Ddc3d4");
 
   try {
     // Create proposal to transfer ourselves 6,900 tokens for being awesome.
-    const amount = 6_900;
+    const amount = 7_700;
     const description = "Should the DAO transfer " + amount + " tokens from the treasury to " +
       process.env.WALLET_ADDRESS + " for being awesome?";
     const executions = [
